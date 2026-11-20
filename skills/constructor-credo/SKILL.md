@@ -12,7 +12,7 @@ metadata:
 
 # Constructor CREDO
 
-Creada por **Alexis Cirano Briones**, docente de IA & Martech (www.cirano.cl), autor de la metodología de prompts CREDO para equipos de marketing y educación.
+Creada por **Alexis Cirano Briones**, docente de IA & Martech (www.cirano.cl), para enseñar a escribir prompts con la metodología CREDO.
 
 Esta skill produce **un prompt, no el resultado**. El usuario la usa para sí mismo y ejecuta el prompt después en Claude, así que el prompt puede apoyarse en lo que Claude sabe hacer: buscar en la web, leer archivos adjuntos, crear Artifacts, documentos, presentaciones o planillas.
 
