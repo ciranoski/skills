@@ -20,11 +20,11 @@ Pide (o toma del mensaje) estos campos. Marca o industria es obligatorio; el res
 
 | Campo | Ejemplo | Regla |
 |---|---|---|
-| Nombre de la investigación | "Entel Chile – Nov 2026" | Si falta, usa "<Marca> <Mercado> – <mes año>" |
-| Marca | Entel | |
+| Nombre de la investigación | "Marca X Chile – Nov 2026" | Si falta, usa "<Marca> <Mercado> – <mes año>" |
+| Marca | Marca X | |
 | Industria | Telecomunicaciones | Si falta y hay marca, dedúcela y dila |
 | Mercado | Chile | Si falta, usa el mercado principal de la marca y dilo |
-| Competidores | Movistar, Claro, WOM | Máx. 15. Si faltan, sugiere 3–6 con una búsqueda y muéstralos |
+| Competidores | Competidor A, Competidor B, Competidor C | Máx. 15. Si faltan, sugiere 3–6 con una búsqueda y muéstralos |
 
 Si nadie está para responder, decide con la regla de cada campo y anota la decisión al inicio del informe.
 

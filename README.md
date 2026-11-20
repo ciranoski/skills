@@ -37,8 +37,8 @@ cp -r skills/brand-research skills/tendencias-culturales ~/.claude/skills/
 Escríbele a Claude con el nombre de la skill o simplemente pide la tarea:
 
 **Brand Research**
-- `/brand-research Entel Chile`
-- «Haz un brand research de Falabella con competidores Ripley y Paris, foco en FODA y tendencias»
+- `/brand-research [nombre de la marca] Chile`
+- «Haz un brand research de [marca] con sus principales competidores, foco en FODA y tendencias»
 
 **Tendencias Culturales**
 - `/tendencias-culturales autos usados en Chile` → informe y presentación de tendencias (Flujo A)

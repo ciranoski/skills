@@ -24,8 +24,8 @@ Esta skill trabaja SOLO con tres fuentes:
 3. **Deep Research:** la skill `deep-research` (cuando esté disponible y la sesión permita agentes) para
    la recolección amplia de señales del Flujo A y para preguntas profundas del Flujo B.
 
-No uses APIs, conectores ni herramientas pagadas (por ejemplo DataForSEO, Semrush, Supermetrics,
-Windsor u otras de pago), aunque estén conectados en la sesión. Si el usuario adjunta por su cuenta un
+No uses APIs, conectores ni herramientas pagadas (por ejemplo herramientas de pago de SEO, analítica
+o medición de audiencias), aunque estén conectados en la sesión. Si el usuario adjunta por su cuenta un
 archivo público y gratuito (por ejemplo una exportación CSV de Google Trends), puedes usarlo como anexo
 ilustrativo, pero el IEC se calcula igual solo con señales.
 
