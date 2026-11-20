@@ -6,8 +6,9 @@ Skills de Claude, en español, creadas por **Alexis Cirano Briones**, docente de
 |---|---|---|
 | **Brand Research** (`brand-research`) | Investigar una marca y su mercado: panorama, competencia, FODA, tendencias, con fuentes citadas y cifras verificadas | Informe + presentación |
 | **Tendencias Culturales** (`tendencias-culturales`) | Detectar y medir las tendencias culturales de un tema o marca, conversar con prompts guiados (STEEP, emergentes) y generar un brief creativo | Informe + presentación, o brief |
+| **Constructor CREDO** (`constructor-credo`) | Convertir una idea o un prompt vago en un prompt estructurado con la metodología CREDO (Contexto, Rol, Ejecución, Delimitación, Demostración, Output) | Prompt listo para copiar |
 
-Ambas usan solo fuentes públicas (búsqueda web y conocimiento del modelo). Cada entregable cierra con una lámina de **metodología y variables** y otra de **créditos**.
+Brand Research y Tendencias Culturales usan solo fuentes públicas (búsqueda web y conocimiento del modelo), y cada entregable cierra con una lámina de **metodología y variables** y otra de **créditos**. Constructor CREDO entrega un prompt, no el resultado: lo copias y lo ejecutas después.
 
 ---
 
@@ -15,7 +16,7 @@ Ambas usan solo fuentes públicas (búsqueda web y conocimiento del modelo). Cad
 
 ### En Claude (web o app de escritorio)
 
-1. Descarga el `.zip` de la skill desde la carpeta [`dist/`](dist/): `brand-research.zip` o `tendencias-culturales.zip`.
+1. Descarga el `.zip` de la skill desde la carpeta [`dist/`](dist/): `brand-research.zip`, `tendencias-culturales.zip` o `constructor-credo.zip`.
 2. En Claude, abre la configuración y busca la sección de **Skills** (dentro de las capacidades).
 3. Sube el `.zip` y activa la skill.
 
@@ -27,7 +28,7 @@ Copia la carpeta de la skill en tu directorio de skills:
 
 ```bash
 mkdir -p ~/.claude/skills
-cp -r skills/brand-research skills/tendencias-culturales ~/.claude/skills/
+cp -r skills/brand-research skills/tendencias-culturales skills/constructor-credo ~/.claude/skills/
 ```
 
 ---
@@ -44,6 +45,10 @@ Escríbele a Claude con el nombre de la skill o simplemente pide la tarea:
 - `/tendencias-culturales autos usados en Chile` → informe y presentación de tendencias (Flujo A)
 - «¿Qué microtendencias están naciendo en el café de especialidad en Chile?» → respuesta con fuentes (Flujo B)
 - «Arma un brief creativo para una marca de zapatillas dirigida a Gen Z» → brief guiado (Flujo C)
+
+**Constructor CREDO**
+- `/constructor-credo prompt para un quiz de GEO para mis alumnos`
+- «Mejora este prompt y pásalo a CREDO: [pega tu prompt]»
 
 ### Qué esperar
 
@@ -68,9 +73,11 @@ Escríbele a Claude con el nombre de la skill o simplemente pide la tarea:
 skills/
   brand-research/SKILL.md
   tendencias-culturales/SKILL.md
+  constructor-credo/SKILL.md
 dist/
   brand-research.zip
   tendencias-culturales.zip
+  constructor-credo.zip
 ```
 
 ---
