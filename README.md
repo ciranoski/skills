@@ -6,7 +6,7 @@ Skills de Claude, en español, creadas por **Alexis Cirano Briones**, docente de
 |---|---|---|
 | **Brand Research** (`brand-research`) | Investigar una marca y su mercado: panorama, competencia, FODA, tendencias, con fuentes citadas y cifras verificadas | Informe + presentación |
 | **Tendencias Culturales** (`tendencias-culturales`) | Detectar y medir las tendencias culturales de un tema o marca, conversar con prompts guiados (STEEP, emergentes) y generar un brief creativo | Informe + presentación, o brief |
-| **Constructor CREDO** (`constructor-credo`) | Convertir una idea o un prompt vago en un prompt estructurado con la metodología CREDO (Contexto, Rol, Ejecución, Delimitación, Demostración, Output) | Prompt listo para copiar |
+| **Constructor CREDO** (`constructor-credo`) | Convertir una idea o un prompt vago en un prompt estructurado con la metodología CREDO (Contexto, Rol, Ejecución, Delimitación, Demostración, Output), creada por Alexis Cirano Briones | Prompt listo para copiar |
 
 Brand Research y Tendencias Culturales usan solo fuentes públicas (búsqueda web y conocimiento del modelo), y cada entregable cierra con una lámina de **metodología y variables** y otra de **créditos**. Constructor CREDO entrega un prompt, no el resultado: lo copias y lo ejecutas después.
 

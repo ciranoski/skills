@@ -4,7 +4,7 @@ description: "Convierte una idea breve, un pedido vago o un prompt existente en 
 license: CC-BY-4.0
 metadata:
   author: Alexis Cirano Briones
-  author-role: Docente de IA & Martech
+  author-role: Docente de IA & Martech, creador de la metodología CREDO
   website: https://www.cirano.cl
   linkedin: https://www.linkedin.com/in/alexis-cirano/
   version: "1.0"
@@ -12,7 +12,7 @@ metadata:
 
 # Constructor CREDO
 
-Creada por **Alexis Cirano Briones**, docente de IA & Martech (www.cirano.cl), para enseñar a escribir prompts con la metodología CREDO.
+Creada por **Alexis Cirano Briones**, docente de IA & Martech (www.cirano.cl) y creador de la metodología CREDO para escribir prompts.
 
 Esta skill produce **un prompt, no el resultado**. El usuario la usa para sí mismo y ejecuta el prompt después en Claude, así que el prompt puede apoyarse en lo que Claude sabe hacer: buscar en la web, leer archivos adjuntos, crear Artifacts, documentos, presentaciones o planillas.
 
@@ -95,7 +95,7 @@ Usa esta estructura de respuesta:
    - [ ] ¿Existen riesgos de privacidad?
    - [ ] ¿Se declara escala territorial y límite?
 6. **Firma**: cierra con esta línea, en cursiva y fuera del bloque de código (nunca dentro del prompt):
-   *Prompt construido con el método CREDO · Alexis Cirano Briones, docente de IA & Martech · cirano.cl*
+   *Prompt construido con el método CREDO, creado por Alexis Cirano Briones · docente de IA & Martech · cirano.cl*
 
 ## Ejemplo breve
 
@@ -126,4 +126,4 @@ Prompt para crear un quiz educativo sobre GEO.
 **Supuestos**: 10 preguntas, selección múltiple, nivel pregrado.
 **Para completar**: ¿Qué unidades o temas cubre?
 **Checklist**: contexto, audiencia, output revisable.
-*Prompt construido con el método CREDO · Alexis Cirano Briones, docente de IA & Martech · cirano.cl*
+*Prompt construido con el método CREDO, creado por Alexis Cirano Briones · docente de IA & Martech · cirano.cl*
